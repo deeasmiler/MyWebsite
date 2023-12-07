@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="topnav">
+    <div class="header">
+      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+      <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+      </label>
+      <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+          <li><a href="" target="_blank">Home</a></li>
+          <li><a href="" target="_blank">About</a></li>
+          <li><a href="" target="_blank">Services</a></li>
+          <li><a href="" target="_blank">Clients</a></li>
+          <li><a href="" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      </input>
+      <input type="text" id="inputLabel" placeholder="Type to Search...">
+      <button type="submit" class="search-button">
+        <img src="search.png">
+      </button>
+    </div>
+  </header>
+
+  <!--BUTOANELE DE SUS-->
+  <section id="background1" class="s-home target-section">
+    <div class="row">
+      <h3>TECH</h3>
+      <h1 class="big-heading">
+        We are a creative group
+        <br>
+        of people who design
+        <br>
+        influential brands and
+        <br>
+        digital experiences.
+      </h1>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+        <svg class="apple-icon" aria-hidden="true" data-prefix="fab" data-icon="apple" role="img"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376 512" data-fa-i2svg="">
+          <path fill="currentColor"
+            d="M314.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C59.3 141.2 0 184.8 0 273.5c0 26.2 4.8 53.3 14.4 81.2 12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z">
+          </path>
+        </svg>
+        <path fill="currentColor"
+          d="M314.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C59.3 141.2 0 184.8 0 273.5c0 26.2 4.8 53.3 14.4 81.2 12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z">
+        </path>
+        </svg>
+        Download
+      </button>
+
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+        <svg class="android-icon" aria-hidden="true" data-prefix="fab" data-icon="google-play" role="img"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+          <path fill="currentColor"
+            d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z">
+          </path>
+        </svg>
+        Download
+      </button>
+    </div>
+
+    <ul class="home-social">
+      <li>
+        <a type="button" href="http://www.facebook.com/" target="_blank"><i class="bi bi-facebook" aria-hidden="true"
+            id="myButton" class="float-left submit-button"></i>
+          <span>Facebook</span></a>
+      </li>
+
+      <li>
+        <a type="button" href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter" aria-hidden="true"></i>
+          <span>Twitter</span>
+        </a>
+      </li>
+
+      <li>
+        <a type="button" href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"
+            aria-hidden="true"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+
+      <li>
+        <a type="button" href="https://www.behance.com" target="_blank"><i class="bi bi-behance" aria-hidden="true"></i>
+          <span>Behance</span>
+        </a>
+      </li>
+
+      <li>
+        <a type="button" href="https://www.dribbble.com" target="_blank"><i class="bi bi-dribbble"
+            aria-hidden="true"></i>
+          <span>Dribbble</span>
+        </a>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- <div class="secondPage"> -->
+  <div class="background2 slide2">
+    <img src="pic-3.png" alt="picture">
+    <h1 class="slide1h1">
+      <p style="font-style: oblique;font-family: emoji;">Hello There
+        <br>
+        We are glint
+      </p>
+      <br>
+    </h1>
+    <br>
+    <h2 class="slide2h2">TechCo Innovations is a leading technology company at the forefront of groundbreaking
+      advancements in the digital world. With a mission to revolutionize the way we interact with technology, TechCo
+      Innovations specializes in developing cutting-edge software solutions and hardware devices that push the
+      boundaries of innovation. Their team of brilliant engineers, designers, and visionaries work tirelessly to create
+      products that redefine user experiences and shape the future of technology. From state-of-the-art artificial
+      intelligence algorithms to immersive virtual reality systems, TechCo Innovations is committed to delivering
+      unparalleled solutions that empower individuals and businesses alike. With a strong focus on research and
+      development, they constantly explore emerging technologies to stay ahead of the curve and provide their clients
+      with the most innovative solutions tailored to their unique needs. TechCo Innovations is not just a company; it is
+      a trailblazer driving the next generation of technological advancements.
+
+    </h2>
+    <!-- </div> -->
+  </div>
+
+  <!-- <div class="thirdPage"> -->
+  <div class="background3 slide3">
+    <video autoplay loop muted>
+      <source src="tech7.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="overlay">
+      <!--Clasa .overlay, pe de altă parte, este folosită pentru a crea un strat suprapus peste videoclip și pentru a adăuga conținut suplimentar, cum ar fi titluri și texte, peste videoclip. Aceasta poate include stiluri specifice pentru opacitate, poziționare, dimensiuni etc. pentru a asigura o vizualizare adecvată a conținutului suprapus peste videoclip. -->
+      <h1 class="slide3h1">
+        <p style="font-style: oblique; font-family: emoji;">What is this technology?</p>
+      </h1>
+      <h2 class="slide3h2">Technology has become an integral part of our lives, shaping the way we work, communicate,
+        and navigate the world. It has revolutionized industries, transformed economies, and empowered individuals. From
+        the advent of the internet to the proliferation of smartphones and the rise of artificial intelligence,
+        technology has consistently pushed the boundaries of what is possible.
+        In today's fast-paced digital age, technology drives innovation and enables us to solve complex problems more
+        efficiently. It has opened up new avenues for collaboration, connecting people across the globe and fostering a
+        global community. The world is more interconnected than ever before, and technology plays a crucial role in
+        facilitating this connectivity..</h2>
+
+    </div>
+  </div>
+  <!-- </div> -->
+
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
